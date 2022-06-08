@@ -313,7 +313,7 @@
     margin-top: 4rem;
 }
 
-.content-four{
+.content-four, .content-five{
     background-color: #EFEFEF;
 }
 
@@ -802,6 +802,86 @@
 
 .button-example-flex {
     display: flex;
+}
+
+.usage-fee {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+
+.content-five-block {
+    text-align: center;
+    padding: 2rem 0;
+    background: #ffffff;
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.title-yellow {
+    display: inline-block;
+    background: #ffca00;
+    padding: 0.5rem 5rem;
+    border-radius: 2rem;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.money-month {
+    margin-top: 2.3rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #2bb6d3;
+}
+
+.money-year {
+    color: #000000;
+    font-weight: 600;
+}
+
+.use-user {
+    margin: 3rem 0 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #a5a5a3;
+}
+
+.use-user-custom {
+    margin: 5rem 0 2rem 0;
+}
+
+.content-five-main {
+    display: flex;
+    -webkit-justify-content: center;
+}
+
+.five-main {
+    margin: 3rem 0;
+}
+
+.great-value {
+    display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+
+.circle {
+    font-size: 5rem;
+    position: relative;
+    bottom: 0.4rem;
+}
+
+.great-value-text {
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #a5a5a3;
+}
+
+.great-value-main {
+    text-align: center;
 }
 
 
@@ -1303,6 +1383,10 @@
 
     .button-example-flex {
         display: inline-block;
+    }
+
+    .content-five-main + .content-five-main {
+        margin-top: 2rem;
     }
 }
 

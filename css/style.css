@@ -884,6 +884,94 @@
     text-align: center;
 }
 
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #A172B2;
+    border-bottom: 15px solid transparent;
+}
+
+.usage-charges {
+    background-color: #FFFFFF;
+    margin-top: 7rem;
+    max-width: 104rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.usage-charges-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 4rem;
+    color: #B08E45;
+    display: inline-block;
+    border-bottom: 4px solid;
+    letter-spacing: 2px;
+}
+
+.usage-charges-content {
+    display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    padding: 7rem 7rem 7rem 8.5rem;
+}
+
+.usage-charges-text1 {
+    color: #2C2C2C;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 4rem;
+}
+
+.usage-charges-text2 {
+    color: #2C2C2C;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 3rem;
+}
+
+.triangle-right {
+    margin-left: 4rem;
+}
+
+.triangle-right + .triangle-right {
+    margin-left: 3px;
+}
+
+.usage-charges-text3 {
+    margin-left: 3rem;
+    color: #A172B2;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.usage-charges-text4 {
+    margin-left: 4rem;
+    color: #A172B2;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.usage-charges-custom {
+    margin-left: 0 !important;
+}
+
+.usage-charges-rps {
+    display: contents;
+}
+
+.img-custom {
+    width: 480px;
+    height: 400px;
+}
+
 
 @media screen and (max-width: 1537px) {
     .header-content-text {
@@ -1388,6 +1476,64 @@
     .content-five-main + .content-five-main {
         margin-top: 2rem;
     }
+
+    .usage-charges-content {
+        display: block;
+        padding: 5rem 0;
+    }
+
+    .usage-charges-rps {
+        display: flex;
+        -webkit-justify-content: center;
+        -webkit-align-items: center;
+    }
+
+    .usage-charges-text1 {
+        margin-left: 0;
+    }
+
+    .usage-charges-text2 {
+        margin-left: 1rem;
+    }
+
+    .usage-charges-text3 {
+        margin-left: 0;
+    }
+
+    .usage-charges-text3 {
+        margin-left: 0;
+    }
+
+    .usage-charges-text4 {
+        margin-left: 2rem;
+    }
+
+    .triangle-right {
+        margin-left: 0;
+        width: 0;
+        height: 0;
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 15px solid #A172B2;
+    }
+
+    .triangle-right + .triangle-right {
+        margin-left: 0;
+    }
+
+    .triangle-right-rps {
+        display: inline-block;
+        height: 3.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .triangle-right-custom {
+        position: relative;
+        bottom: 1rem;
+    }
+
+
+
 }
 
 @media screen and (max-width: 375px) {
